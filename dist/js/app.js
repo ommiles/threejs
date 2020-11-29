@@ -1,4 +1,3 @@
-
 // Simple pure JavaScript plugin to rotate text snippets as if they were being typed.
 // http://schier.co/post/simple-vanilla-javascript-typing-carousel
 
@@ -58,9 +57,8 @@ window.onload = function() {
 	document.body.appendChild(css);
 };
 
-
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 100 );
+const camera = new THREE.PerspectiveCamera( 50, window.innerWidth / window.innerHeight, 1, 100 );
 
 const renderer = new THREE.WebGLRenderer( { alpha: true } ); // init like this
 renderer.setClearColor( 0xffffff, 0 ); // second param is opacity, 0 => transparent
